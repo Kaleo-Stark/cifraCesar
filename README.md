@@ -2,7 +2,7 @@
 
 Aqui está um simples formulário que manda uma mensagem ao código PHP que tem a função de criptografar a mensagem utilizando a cifra de César.
 
-Dê uma conferida no arquivo cifra.php, esta tudo bem comentado ;).
+Dê uma conferida no arquivo cifra.php, está tudo bem comentado ;).
 
 # Criptografando
 
