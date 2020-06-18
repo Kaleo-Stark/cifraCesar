@@ -1,0 +1,61 @@
+@font-face{
+    font-family: fonteWindows;
+    src: url('./Windows\ Regular.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: fonteWindows;
+    background-color: #0000fe;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    background-color: #c7cccd;
+    color: #0000fe;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.formulario{
+    border: 3px outset darkgray;
+    padding: 30px;
+    text-align: center;
+    background-color: gray;
+    color: black;
+    box-shadow: 2px 2px 5px -1px black;    
+}
+
+.selecionar{
+    width: 94%;
+    border: 3px inset darkgray;
+}
+
+.entrada{
+    width: 90%;
+    border: 3px inset darkgray;
+    background-color: #DDDDDD;
+}
+
+.botao{
+    width: 90%;
+    border: 3px outset darkgrey;
+    background-color: gray;
+    box-shadow: 2px 2px 5px -1px black;
+}
+
+.rodape{
+    color: #c7cccd;
+    font-size: 15px;
+    font-family: fonteWindows;
+}

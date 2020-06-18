@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Cifra de cesar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <h1 class="titulo">Cifra de César</h1>
+        </div>
+
+        <div class="formulario">
+            <!-- Formulário requisitando a escolha do usuário -->
+            <form name="Cifra" action="cifra.php" method="post">
+                <label>Criptografar ou descriptografar</label><br>
+                
+                <select class="selecionar" name="foption">
+                    <option value="criptografar">Criptografar</option>
+                    <option value="descriptografar">Descriptografar</option>
+                </select><br><br>
+
+                <label>Escolha a chave a ser usada na cifra</label><br>
+                <input class="entrada" type="number" name="fchave" placeholder="Número entre 1 e 26"></br></br>
+
+                <label>Mensagem</label><br>
+                <input class="entrada" type="text" name="fmensagem" placeholder="Texto a ser cifrado"><br><br><br>
+                <input class="botao" type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <div>
+            <p class="rodape">Feito por: Kaleo Stark <a id="cursor">_</a></p>
+        </div>
+
+    </div>
+
+    <script src="rodape.js"></script>
+</body>
+
+</html>
